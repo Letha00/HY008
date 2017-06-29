@@ -33,7 +33,7 @@ li.tree-opened > .toggler:before {
 .tree li,
 .tree li > a,
 .tree li > span {
-    padding: 4pt;
+    padding: 1pt;
     border-radius: 4px;
 }
 
@@ -73,7 +73,7 @@ li.tree-opened > .toggler:before {
     /*border:2px solid #46CFB0;*/
 }
 .t-step-details {
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     height: auto;
     background-color: #fff;
     /*position:absolute;
