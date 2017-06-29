@@ -1,0 +1,87 @@
+/*2017-06-25 lyl*/
+
+
+/*bootstrap cover*/
+.panel-lylprimary {
+    border:1px solid #0bbc9a;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+.panel-lylprimary > .panel-heading {
+    color: #fff;
+    background-color: #18BC9C;
+    border-color: #0bbc9a
+}
+
+.panel-lylprimary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #18BC9C
+}
+
+.panel-lylprimary > .panel-heading .badge {
+    color: #18BC9C;
+    background-color: #fff
+}
+
+.panel-lylprimary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #18BC9C
+}
+
+/*mine*/
+
+a.lyl-a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.lyl-a:hover {
+    color: #2C3E50;
+    text-decoration: none;
+
+}
+
+/*已支持服务器列表*/
+.s-server{
+    width:160px;
+
+}
+
+/*question    */
+
+.questionlist {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.panel-lylprimary>ul>li>span{
+    border-right:2px solid #0bbc9a;
+    padding-right: 20px;
+}
+
+/*footer*/
+.lyl-tutorial{
+    font:16px/22px arial,sans-serif;
+    padding-left:50%;
+    text-align: center;
+}
+
+.lyl-tutorial>dt{
+    font-size: 24px;
+    font-weight:500;
+    margin-bottom: 20px;
+    /*text-align:left;*/
+}
+/*.lyl-tutorial > dd{*/
+    /*text-align:left;*/
+/*}*/
+
+.lyl-tutorial > dd > a{
+
+    color:#fff;
+    text-decoration: none;
+}
+.lyl-tutorial > dd >a:hover{
+    color:#0bbc9a;
+    text-decoration: none;
+}

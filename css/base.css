@@ -1,0 +1,83 @@
+/*公共样式*/
+
+div{margin: 0;padding: 0;}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent
+}
+body {background-color: #2C3E50;position:relative;}
+ul {list-style: none;border: none;}
+a {text-decoration: none;}
+
+/*浮动·边距设置开始--------------------------------------*/
+.fl-l {float: left;}
+.fl-r {float: right;}
+.s-mc{margin:0 auto}
+.s-mt10 {margin-top: 10px;}
+.s-mt20 {margin-top: 20px;}
+.s-mb10 {margin-bottom: 10px;}
+.s-mb20 {margin-bottom: 20px;}
+.s-pdt10 {padding-top: 10px;}
+.s-pdt20 {padding-top: 20px;}
+/*浮动·边距设置结束--------------------------------------*/
+
+/*文本对齐·缩进·字体大小属性设置开始--------------------------------------*/
+.tl {text-align: left;}
+.tr {text-align: right;}
+.s-vam {vertical-align: middle;}
+.indent2 {text-indent: 2em;}
+.s-fs14 {font-size: 14px;}
+.s-fs20 {font-size: 20px;}
+.s-fw400{font-weight:400;}
+.s-fw600{font-weight:600;}
+/*文本对齐·缩进·字体大小属性设置结束--------------------------------------*/
+
+/*宽度·高度属性设置开始--------------------------------------*/
+.s-w20 {width: 20%;}
+.s-w40 {width: 40%;}
+.s-w60 {width: 60%;}
+.s-w80 {width: 80%;}
+.s-w100 {width: 100%;}
+.s-hg30 {height: 30px;}
+.s-hg48 {height: 48px;}
+/*宽度·高度属性设置结束--------------------------------------*/
+
+/*块级·行内元素设置开始--------------------------------------*/
+.set-in {display: inline;}
+.s-bl {display: block;}
+.s-inbl {display: inline-block;}
+/*宽度·高度属性设置结束--------------------------------------*/
+
+/*边框设置开始--------------------------------------------*/
+.s-bd1 {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+/*边框设置结束--------------------------------------------*/
+
+/*定位*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
