@@ -14,30 +14,22 @@
     left: 0;
 }
 
-.nav .toindex {
-    position: absolute;
-    top: 50px;
-    right: 40px;
+nav .to-index {
+    position: relative;
+    bottom: 0;
+    right: -180px;
+    width: 100px;
     font-size: 14px;
-    line-height: 18px;
-    border: 1px solid #fff;
-    background-color: #2C3E50;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
     padding: 3px 5px;
 
 }
-
-.nav .toindex a {
-    color: #fff;
+nav .to-index a {
+    color: #18BC9C;
 }
 
-.nav .toindex:hover {
+nav .to-index a:hover {
     color: #fff;
-    font-size: 15px;
-    border: 1px solid #ccc;
-    background-color: #18BC9C;
+    text-decoration: none;
 }
 
 .box {

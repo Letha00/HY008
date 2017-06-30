@@ -6,18 +6,32 @@
 
  */
 
-(function ($) {
+
+function getA(a){
+    a = a || 2;
+    return a;
+}
+
+var c = getA(2);
+c = getA(null);
+
+
+(function ($)
+{
+    // 传入的参数 activeSel 是个字符串
     $.fn.openActive = function (activeSel) {
-        activeSel = activeSel || ".active";
+        activeSel = (activeSel || ".active");
 
         var c = this.attr("class");
 
         this.find(activeSel).each(function () {
             var el = $(this).parent();
             while (el.attr("class") !== c) {
-                if (el.prop("tagName") === 'UL') {
+                var tagName = el.prop("tagName");
+
+                if (tagName  == 'UL') {
                     el.show();
-                } else if (el.prop("tagName") === 'LI') {
+                } else if (el.prop("tagName") == 'LI') {
                     el.removeClass('tree-closed');
                     el.addClass("tree-opened");
                 }
@@ -28,6 +42,9 @@
 
         return this;
     }
+
+
+
 
     $.fn.treemenu = function (options) {
         options = options || {};
